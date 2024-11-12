@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import MenuInsert from "./components/MenuInsert";
+import MenuUpdate from "./components/MenuUpdate";
+import ItemInsert from "./components/ItemInsert";
+import ItemUpdate from "./components/ItemUpdate";
+import ItemDetail from "./components/ItemDetail";
+import MenuDetail from "./components/MenuDetail";
+import ItemList from "./components/ItemList";
+import MenuList from "./components/MenuList";
+import Category from "./components/Category";
+import InsertMainStore from "./components/InsertMainStore";
+import RepairList from "./components/RepairList";
+import RepairDetail from "./components/RepairDetail";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <RepairDetail></RepairDetail>;
 }
 
 export default App;
